@@ -69,7 +69,7 @@ Update and install dependencies
 
 ```bash 
 sudo apt-get update
-sudo apt-get install cmake libgmp-dev libssl-dev libpthread-stubs0-dev pkg-config libprotobuf-dev protobuf-compiler libsodium-dev
+sudo apt-get install cmake libgmp-dev libssl-dev libpthread-stubs0-dev pkg-config libprotobuf-dev protobuf-compiler libsodium-dev build-essential
 ```
 
 #### On Ubuntu 18.04
