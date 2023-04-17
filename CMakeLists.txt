@@ -10,7 +10,7 @@ else ()
 endif ()
 
 # build policy for add_test option
-cmake_policy(SET CMP0110 OLD)
+cmake_policy(SET CMP0110 NEW)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
