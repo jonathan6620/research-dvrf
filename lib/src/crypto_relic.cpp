@@ -236,7 +236,8 @@ bool CryptoRelic::Signature::assign(const std::string &s) {
   return true;
 }
 
-void CryptoRelic::Signature::mult(const Signature &left, const PrivateKey &right) {
+void CryptoRelic::Signature::mult(Signature &left, PrivateKey &right)
+{
   g1_mul(g1, left.data(), right.data());
 }
 
